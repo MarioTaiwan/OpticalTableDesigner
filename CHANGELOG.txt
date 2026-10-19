@@ -1,0 +1,11 @@
+Optical Table Designer v0.3
+===========================
+- Fix: Moving/stepping no longer reconstructs rotation from yaw. Preserves full 3D rotations.
+- Fix: Rotating via GUI now applies incremental yaw about the selected surface normal.
+- Fix: Laser creation becomes create/update; existing v0.2 Laser rays are adopted and legacy duplicates cleaned.
+- Add: Editable local mounting anchor X/Y/Z plus 6 nudge buttons and optional axis marker.
+- Add: Components tab with filterable in-document parts and deep-copied optical/mount annotations.
+- Add: Duplicate mirror receives its own optical proxy and own optics registration (when available).
+- Fix: Update mounted positions now transports attached parts by relative breadboard transform.
+- Preserves existing breadboard insertion, all view controls, and Help tab.
+- Tests: placement, laser update, rotation preservation, anchor shift, copy and UI layout.
