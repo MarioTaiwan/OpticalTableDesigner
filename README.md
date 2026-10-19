@@ -2,6 +2,12 @@
 
 FreeCAD extension for arranging optomechanical STEP parts on an optical table or breadboard, storing optical references, and tracing geometric beams with the optional Optics Workbench add-on.
 
+1. Insert optics from Thorlab step files
+2. Move around a breadboard
+<img width="1371" height="768" alt="image" src="https://github.com/user-attachments/assets/c415dfa7-2483-4f80-a097-78875e52631b" />
+3. Assign mirror surfaces
+3. Align laser.
+
 **v0.3 updates:** moving with arrows now preserves all existing component rotations; the local mounting anchor can be moved independently of the CAD body; one Designer laser ray is created/updated instead of accumulating copies; and a new **Components** tab duplicates models with their mounting/optical metadata.
 
 ## Upgrade your existing installation
