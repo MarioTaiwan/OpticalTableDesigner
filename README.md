@@ -1,7 +1,10 @@
 # Optical Table Designer v0.3 — FreeCAD 1.1 / Windows 11
 
 FreeCAD extension for arranging optomechanical STEP parts on an optical table or breadboard, storing optical references, and tracing geometric beams with the optional Optics Workbench add-on.
+First, install Freecad (https://www.freecad.org/downloads.php)
+Then, install OTD either by copying OpticalTableDesigner folder into Freecad/MOD/ folder or running Install_windows.bat as administrator.
 
+## Operation
 1. Insert optics from Thorlab step files
 2. Move around a breadboard
 <img width="1371" height="768" alt="image" src="https://github.com/user-attachments/assets/c415dfa7-2483-4f80-a097-78875e52631b" />
